@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: border-box;
+}
+
+#hero{
+    width: 100vw;
+    height: 40vh;
+    background-image: url("../../public/landingPage/MIT-SchoolQuality-01_0.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    margin-bottom: 20px;
+}
+
+.main{
+    padding: 30px;
+}
+
+.main img{
+    width: 100%;
+}
+
+.cardbtn{
+    @apply py-1 px-10
+}
